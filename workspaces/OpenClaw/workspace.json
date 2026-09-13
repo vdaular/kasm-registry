@@ -1,8 +1,9 @@
 {
   "description": "OpenClaw is an AI agent gateway that can carry out tasks, not just chat.",
-  "docker_registry": "https://registry.xaas.ar",
+  "docker_registry": "https://index.docker.io/v1/",
   "image_src": "openclaw.png",
   "gpu_count": 0,
+  "notes": "Built locally on minisrvr-01 from vdaular/kasm-openclaw (docker build -t kasm-openclaw:latest .). Not published to registry.xaas.ar yet -- large blob uploads currently fail through tsdproxy, see registry/AGENTS.md.",
   "categories": [
     "AI",
     "Utilities"
@@ -15,7 +16,7 @@
   "compatibility": [
     {
       "version": "1.19.x",
-      "image": "registry.xaas.ar/kasm-openclaw:latest",
+      "image": "kasm-openclaw:latest",
       "uncompressed_size_mb": 18000,
       "available_tags": [
         "latest"

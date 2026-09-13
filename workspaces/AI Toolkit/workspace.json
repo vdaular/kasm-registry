@@ -1,8 +1,9 @@
 {
   "description": "AI Toolkit is an all in one training suite for diffusion models, built on ostris/ai-toolkit.",
-  "docker_registry": "https://registry.xaas.ar",
+  "docker_registry": "https://index.docker.io/v1/",
   "image_src": "ai-toolkit.png",
   "gpu_count": 1,
+  "notes": "Built locally on minisrvr-01 from vdaular/kasm-ai-toolkit (docker build -t kasm-ai-toolkit:latest .). Not published to registry.xaas.ar yet -- large blob uploads currently fail through tsdproxy, see registry/AGENTS.md.",
   "categories": [
     "AI",
     "Utilities"
@@ -14,7 +15,7 @@
   "compatibility": [
     {
       "version": "1.19.x",
-      "image": "registry.xaas.ar/kasm-ai-toolkit:latest",
+      "image": "kasm-ai-toolkit:latest",
       "uncompressed_size_mb": 16000,
       "available_tags": [
         "latest"
