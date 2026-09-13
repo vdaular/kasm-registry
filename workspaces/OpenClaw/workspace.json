@@ -1,0 +1,25 @@
+{
+  "description": "OpenClaw is an AI agent gateway that can carry out tasks, not just chat.",
+  "docker_registry": "https://registry.xaas.ar",
+  "image_src": "openclaw.png",
+  "gpu_count": 0,
+  "categories": [
+    "AI",
+    "Utilities"
+  ],
+  "friendly_name": "OpenClaw",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.19.x",
+      "image": "registry.xaas.ar/kasm-openclaw:latest",
+      "uncompressed_size_mb": 18000,
+      "available_tags": [
+        "latest"
+      ]
+    }
+  ]
+}
